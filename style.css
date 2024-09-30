@@ -48,6 +48,8 @@ body {
 .content-one {
     display: flex;
     background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
 }
 .main-title {
     font-weight: 900;
@@ -60,6 +62,17 @@ body {
 .mt-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 500px;
+
+
+}
+.gorillapic {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    margin: 30px;
+
+
 
 
 }
