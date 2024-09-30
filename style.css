@@ -44,12 +44,19 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    
 }
 .content-one {
     display: flex;
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
+    
+}
+.textnbuttonc1 {
+    margin-left: 30px;
+    padding-left: 30px; 
+
 }
 .main-title {
     font-weight: 900;
@@ -57,12 +64,14 @@ body {
     color: #F9FAF8;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    
 
 }
 .mt-subtext {
     font-size: 18px;
     color: #E5E7EB;
     max-width: 500px;
+    
 
 
 }
