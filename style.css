@@ -110,6 +110,41 @@ body {
 }
 .content-two {
     display: flex;
+    flex-direction: column;
+
+
+}
+.content-two h4 {
+    text-align: center; 
+
+
+}
+.picturesandtextc2 {
+    display: flex;
+    justify-content: center;
+    
+
+
+
+}
+.test1 {
+    width: 150px;
+    margin: 16px 16px;
+}
+.test1 img {
+    width: 100%;
+    height: auto;
+    border: 3px solid blue;
+    border-radius: 8px;
+
+}
+
+.test1 figcaption {
+    font-size: 12px;
+    margin-top: 8px;
+    font-weight: normal;
+
+
 
 
 }
