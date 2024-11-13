@@ -41,6 +41,9 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 300;
+    font-size: 14px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -150,8 +153,32 @@ body {
 }
 .content-three {
     display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
 
 }
+.quote {
+    font-style: italic;               /* Gör texten kursiv */
+    font-weight: 300;
+    color: #1F2937;                    /* Mörkgrå färg för subtilt intryck */
+    font-size: 36px;
+    width: 500px;
+    padding-left: 16px;               /* Skapar avstånd från vänsterkanten */
+    margin: 100px 0;                   /* Avstånd ovanför och under citatet */
+}
+
+.quote cite {
+    display: block;                   /* Placera källan på en egen rad */
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    margin-top: 8px;                  /* Avstånd ovanför källan */
+    font-size: 0.5em;                 /* Gör texten för källan något mindre */
+                                    /* Ljusare färg för att skilja ut källan */
+    text-align: right;
+}
+
+
 .content-four {
     display: flex;
     padding-bottom: 2.5rem
