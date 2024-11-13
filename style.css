@@ -158,9 +158,9 @@ body {
 
 }
 .quote {
-    font-style: italic;               /* Gör texten kursiv */
+    font-style: italic;               
     font-weight: 300;
-    color: #1F2937;                    /* Mörkgrå färg för subtilt intryck */
+    color: #1F2937;                   
     font-size: 36px;
     width: 500px;
     padding-left: 16px;               /* Skapar avstånd från vänsterkanten */
@@ -174,12 +174,64 @@ body {
     color: black;
     margin-top: 8px;                  /* Avstånd ovanför källan */
     font-size: 0.5em;                 /* Gör texten för källan något mindre */
-                                    /* Ljusare färg för att skilja ut källan */
+  
     text-align: right;
 }
 
 
 .content-four {
     display: flex;
-    padding-bottom: 2.5rem
+    padding-bottom: 2.5rem;
+    justify-content: center;
+    
+}
+
+.containerc4 {
+    display: flex;                   /* Aktiverar flex-läge för att placera element i rad */
+    
+    justify-content: center;  /* Sprider texten och knappen från varandra */
+    
+    
+    background-color: #3882F6;       /* Blå bakgrund */
+    color: white;                    /* Vit textfärg för synlighet */
+    padding: 16px;                   /* Avstånd runtom i rutan */
+    border-radius: 8px;              /* Valfritt: rundade hörn */
+    width: auto;
+    height: auto;
+    box-sizing: border-box;          /* Säkerställer att padding ingår i bredden */
+    margin: 100px;
+}
+
+.containerc4 h4 {
+    font-size: 1.5em;                  /* Justera rubrikens storlek */
+    margin: 0;                 /* Marginal under rubriken för avstånd till texten */
+}
+.c4text {
+    margin: 25px;
+}
+
+.textc4 {
+    margin: 0;                       /* Tar bort standardmarginaler för texten */
+    font-size: 1em;                  /* Justera textstorlek efter behov */
+    font-weight: 300;
+}
+.c4button {
+    margin: 25px;
+
+}
+
+.buttonc4 {
+    padding: 8px 16px;               /* Avstånd inuti knappen */
+    background-color: #3882F6;         /* Vit bakgrund på knappen */
+    color: white;                  /* Blå text på knappen för kontrast */
+    border: 1.5px solid white;                  
+    border-radius: 4px;              /* Valfritt: lätt rundade hörn på knappen */
+    cursor: pointer;                 /* Muspekare blir en hand */
+    font-size: 1em;                  /* Matchar textstorleken */
+    margin: 10px 10px;
+}
+
+.buttonc4:hover {
+    background-color: blue;       
+    color: white;                    
 }
